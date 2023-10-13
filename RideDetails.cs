@@ -84,9 +84,9 @@ namespace AdventureParkRideTicketingApplication
         /// <param name="minweigt"></param>
         /// <param name="maxweigth"></param>
         /// <param name="rideprice"></param>
-            public RideDetails(string ridename,RideTypeclass ridetype,int minagelimit,int maxagelimit,double minweigt,double maxweigth,double rideprice){
+            public RideDetails(string ridenames,RideTypeclass ridetype,int minagelimit,int maxagelimit,double minweigt,double maxweigth,double rideprice){
             s_id2++;
-            RideName=ridename;
+            RideName=ridenames;
             RideType=ridetype;
             MinAgeLimit=minagelimit;
             MaxAgeLimit=maxagelimit;
